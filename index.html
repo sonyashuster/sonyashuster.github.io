@@ -1,16 +1,53 @@
 <!DOCTYPE html>
 <html>
 <head>
-<style>
-body {
-  background-image: url("bgdesert.jpg");
-}
-</style>
+<link rel="stylesheet" href="indexstyle.css">
 </head>
 <body>
+<!-- For Section 3 of the assignment, I did the table, the Google Maps Static API maps,
+	and the Navigation bars. I was also going to do the "5 or more unique images" as a 
+	fourth item, but never completed it. -->
+<ul>
+<!-- Adapted from: https://www.w3schools.com/css/css_navbar.asp -->
+	<li><a class="active" href="index.html">Home</a><li>
+	<li><a href="kingston.html">Kingston, ON</a></li>
+	<li><a href="antigonish.html">Antigonish, NS</a></li>
+</ul>
 
-<h1>Hello World!</h1>
-<p>This text is not easy to read on this background image.</p>
+<h1>Places I've Lived</h1>
+
+<p>While I've only ever had one "home", I've lived in a total of nine "dwellings" in 
+three cities/towns in two provinces. I'm going to show them to you.</p>
+
+<h2>"Home" (aka Toronto)</h2>
+
+<!-- Maps are Google Maps APIs, adapted from 
+	https://developers.google.com/maps/documentation/maps-static/start
+	based on Assignment 1 -->
+<img class="map" src="http://maps.googleapis.com/maps/api/staticmap?
+	center=Toronto%2C+ON&zoom=6&size=640x500&maptype=roadmap
+	&markers=size%3Amid%7Ccolor%3Ared%7CToronto%2C+ON
+	&key=AIzaSyDkNXlV6Rib05Pi-6McS2M8uChUQGBN9xo"
+	alt="Location of Toronto, ON" style="width:450px;height:352px;">
+
+<img class="map" src="http://maps.googleapis.com/maps/api/staticmap?
+	center=High%20Park%2C%20Toronto%2C%20ON&zoom=12&size=640x500&maptype=roadmap
+	&markers=size%3Amid%7Ccolor%3Ablue%7CHigh%20Park%2C%20Toronto%2C%20ON
+	&key=AIzaSyDkNXlV6Rib05Pi-6McS2M8uChUQGBN9xo"
+	alt="Toronto and High Park" style="width:450px;height:352px;"> 
+<p> I grew up in Toronto, near High Park. I moved back home almost two years ago 
+	and have lived there ever since. High Park is the largest park entirely within 
+	the city of Toronto. Among other things, it has an epic castle playground
+	and multiple ponds with lots of ducks, geese, and other wildlife; 
+	there's even a small zoo. </p>
+
+<!-- Images are used under Creative Commons Licences -->
+<!-- Playground picture is from https://commons.wikimedia.org/wiki/File:High_park_adventure_playground.jpg -->
+<img class="images" src="https://upload.wikimedia.org/wikipedia/commons/e/e0/High_park_adventure_playground.jpg"
+	alt="Jamie Bell Adventure Playground in High Park" style="width:500px;height:375px;">
+<!-- Picture of the ducks is from https://www.flickr.com/photos/akaashmaharaj/30412734028 -->
+<img class="images" src="https://live.staticflickr.com/1856/30412734028_57a1b5b1a6_b.jpg" 
+	alt="Ducks at Grenadier Pond" style="width:500px;height:262px;">
 
 </body>
-</html>
+</html> 
