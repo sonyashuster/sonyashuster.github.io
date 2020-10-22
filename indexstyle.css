@@ -1,0 +1,82 @@
+
+
+/* Navbar formatting adapted from: 
+https://www.w3schools.com/css/css_navbar_horizontal.asp */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+  border-right: 1px solid #bbb
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  padding: 8px;
+  background-color: #00b300;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #008000;
+}
+
+.active {
+  background-color: darkgrey;
+} /* End Navbar */
+
+body {
+	/* Adapted from https://www.w3schools.com/css/css_background.asp */
+	background-color: #e6ffff;
+	/* Font family from https://www.w3schools.com/cssref/css_websafe_fonts.asp */
+	font-family: Tahoma, Geneva, sans-serif;
+}
+
+.map {
+	margin: 0px 20px 15px 10px;
+}
+
+.images {
+	/* float: right; */
+	margin: 10px;
+}
+
+/* Table formatting adapted from https://www.w3schools.com/css/css_table.asp */
+table, td, th {
+	border: 1px solid black;
+	font-family: Georgia, serif;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+th, td {
+	padding: 10px;
+	text-align: left;
+}
+
+th {
+	background-color: #0066ff;
+	color: white;
+}
+
+tr:nth-child(even) {background-color: #b3d1ff;}
+tr:nth-child(odd) {background-color: white;} 
+
+caption {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-family: Georgia, serif;
+}
+/* End Table */
+
